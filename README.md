@@ -1,5 +1,8 @@
 # @hivecivilization/prov-absence
 
+> **Layer C — Reference Primitive.** This is a public reference implementation. The wire format (see `SPEC.md` where present) is normative; this code is illustrative. Production-grade implementations of these specs run on the closed-source Hive Civilization platform with HSM-backed key custody, immutable transparency-log audit, multi-region sovereign federation, and SOC 2 / ISO 27001 / FedRAMP-track controls. Fork freely; conform to the spec.
+
+
 **Cryptographic proof that an event did NOT happen.**
 
 The dual of inclusion. If a Merkle tree proves "I saw X", `prov.absence` proves "X was never observed in this window."
